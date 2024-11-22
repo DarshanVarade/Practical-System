@@ -12,7 +12,7 @@ app.use(express.json());
 app.use("/api/v1",router)
 
 app.get("/",(req,res)=>{
-  res.send("Practical system");
+  res.send("Darshan's Practical system");
 });
 
 dotenv.config();
